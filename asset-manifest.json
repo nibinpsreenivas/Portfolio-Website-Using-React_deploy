@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio-Website-Using-React_deploy/static/css/main.176b99b4.css",
-    "main.js": "/Portfolio-Website-Using-React_deploy/static/js/main.f0e7dbf4.js",
+    "main.js": "/Portfolio-Website-Using-React_deploy/static/js/main.512d8147.js",
     "static/js/787.e18286c0.chunk.js": "/Portfolio-Website-Using-React_deploy/static/js/787.e18286c0.chunk.js",
     "static/media/drak.jpg": "/Portfolio-Website-Using-React_deploy/static/media/drak.d1f115a759766e7aa379.jpg",
     "static/media/homelight.jpg": "/Portfolio-Website-Using-React_deploy/static/media/homelight.ea8ad37718df9598e118.jpg",
     "static/media/webdev.svg": "/Portfolio-Website-Using-React_deploy/static/media/webdev.4d72dbba32efee3890cef9bcacce7aa7.svg",
     "index.html": "/Portfolio-Website-Using-React_deploy/index.html",
     "main.176b99b4.css.map": "/Portfolio-Website-Using-React_deploy/static/css/main.176b99b4.css.map",
-    "main.f0e7dbf4.js.map": "/Portfolio-Website-Using-React_deploy/static/js/main.f0e7dbf4.js.map",
+    "main.512d8147.js.map": "/Portfolio-Website-Using-React_deploy/static/js/main.512d8147.js.map",
     "787.e18286c0.chunk.js.map": "/Portfolio-Website-Using-React_deploy/static/js/787.e18286c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.176b99b4.css",
-    "static/js/main.f0e7dbf4.js"
+    "static/js/main.512d8147.js"
   ]
 }
