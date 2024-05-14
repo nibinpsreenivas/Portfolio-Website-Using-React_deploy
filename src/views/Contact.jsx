@@ -19,7 +19,7 @@ const Contact = () => {
           Contact
         </h2>
         <div>
-          <h4 className="mt-12 text-3xl font-semibold text-blue-500">
+          <h4 className="mt-12 text-3xl font-semibold text-orange-500">
             Connect with me
           </h4>
           <p className="text-gray-500 text-xl">
@@ -93,7 +93,7 @@ const Contact = () => {
                     Send me email directly
                   </a>
                 </div>
-                <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
+                <button className="bg-orange-500 text-white px-4 py-2 w-40 rounded-md hover:bg-ornage-100">
                   <a href="mailto:nibinpsreenivas55@gmail.com">Submit</a>
                 </button>
               </div>
