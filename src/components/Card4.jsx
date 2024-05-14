@@ -29,7 +29,7 @@ const Card4 = () => {
         A BMI-Calculator Developed using flutter
         </p>
         <a
-          href="https://github.com/nibinpsreenivas/Hellogram_Node-js"
+          href="https://github.com/nibinpsreenivas/BMI-Calculator-using-Flutter"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           Read more

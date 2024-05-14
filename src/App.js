@@ -14,7 +14,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   useEffect(() => {
     document.title = 'Nibin P Sreenivas';
-    setTimeout(() => setLoading(false), 1000)
+    setTimeout(() => setLoading(false), 2000)
   }, [])
 
   return (
