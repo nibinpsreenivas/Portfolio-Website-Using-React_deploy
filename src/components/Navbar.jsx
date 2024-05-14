@@ -17,13 +17,18 @@ const Navbar = () => {
       name: "About",
       route: "about",
     },
-    {
-      name: "Services",
-      route: "services",
-    },
+   
     {
       name: "Projects",
       route: "projects",
+    },
+    {
+      name: "Certificate",
+      route: "Certificate",
+    },
+    {
+      name: "Services",
+      route: "services",
     },
     {
       name: "Contact",
@@ -44,7 +49,7 @@ const Navbar = () => {
       <nav
         className={
           darkMode
-            ? "bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
+            ? "bg-transprent border-gray-200 z-50  md:px-8 px-1 fixed w-full top-0"
             : "bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
       >
@@ -54,7 +59,7 @@ const Navbar = () => {
               href="/"
               className={
                 darkMode
-                  ? "text-xl font-medium text-decoration-none whitespace-nowrap text-black"
+                  ? "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
@@ -76,8 +81,8 @@ const Navbar = () => {
                     smooth={true}
                     className={
                       darkMode
-                        ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
-                        : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
+                        ? "block py-2 px-3 text-black hover:bg-orange-500 hover:text-white rounded-md"
+                        : "block py-2 px-3 text-white hover:bg-orange-500 hover:text-white rounded-md"
                     }
                   >
                     {el.name}
@@ -125,7 +130,7 @@ const Navbar = () => {
               duration={0.8}
               distance={"lg"}
               toggle={setToggle}
-              color={darkMode ? "#000000" : "#ffffff"}
+              color={darkMode ? "#ffffff" : "#ffffff"}
             />
           </div>
         </div>
@@ -147,11 +152,11 @@ const Navbar = () => {
               {links.map((el) => (
                 <Link
                   to={el.route}
-                  activeClass={"text-white bg-blue-500"}
+                  activeClass={"text-white bg-orange-500"}
                   className={
                     darkMode
-                      ? "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
-                      : "hover:bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
+                      ? "hover:bg-orange-500 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
+                      : "hover:bg-orange-500 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
                   }
                   spy={true}
                   smooth={true}
